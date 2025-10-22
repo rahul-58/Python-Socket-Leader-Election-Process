@@ -1,0 +1,18 @@
+2025-09-21 19:59:45,245 [Task2] type=x my_uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f
+2025-09-21 19:59:45,246 [Task2] bind=('127.0.0.1', 5103), targets=[('127.0.0.1', 5104), ('127.0.0.1', 5101)], expect_in=1
+2025-09-21 19:59:45,246 [Task2] Listening...
+2025-09-21 19:59:45,451 [Task2] Connecting to 127.0.0.1:5104 ...
+2025-09-21 19:59:45,452 [Task2] Connected.
+2025-09-21 19:59:45,453 [Task2] Connecting to 127.0.0.1:5101 ...
+2025-09-21 19:59:45,454 [Task2] Connected.
+2025-09-21 19:59:45,454 Sent: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0
+2025-09-21 19:59:45,454 [Task2] Accepted ('127.0.0.1', 54920) (1/1)
+2025-09-21 19:59:45,454 [Task2] Finished accepting expected connections.
+2025-09-21 19:59:45,454 Sent: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0
+2025-09-21 19:59:45,455 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0, greater, 0
+2025-09-21 19:59:45,455 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0
+2025-09-21 19:59:45,455 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0
+2025-09-21 19:59:45,665 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1, greater, 0
+2025-09-21 19:59:45,666 Leader is decided to fa6b4169-1121-4ecf-adc2-abbfaede3ffb.
+2025-09-21 19:59:45,666 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1
+2025-09-21 19:59:45,666 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1

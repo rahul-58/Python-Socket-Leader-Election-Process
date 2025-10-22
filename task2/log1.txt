@@ -1,0 +1,17 @@
+2025-09-21 19:59:45,245 [Task2] type=n my_uuid=597905f2-2fa9-4607-ba20-6bd9195caf85
+2025-09-21 19:59:45,246 [Task2] bind=('127.0.0.1', 5105), targets=[('127.0.0.1', 5101)], expect_in=1
+2025-09-21 19:59:45,246 [Task2] Listening...
+2025-09-21 19:59:45,451 [Task2] Connecting to 127.0.0.1:5101 ...
+2025-09-21 19:59:45,452 [Task2] Connected.
+2025-09-21 19:59:45,453 Sent: uuid=597905f2-2fa9-4607-ba20-6bd9195caf85, flag=0
+2025-09-21 19:59:45,453 [Task2] Accepted ('127.0.0.1', 54919) (1/1)
+2025-09-21 19:59:45,454 [Task2] Finished accepting expected connections.
+2025-09-21 19:59:45,556 Received: uuid=3cfaed40-c2ce-463f-b748-b591799fd292, flag=0, less, 0
+2025-09-21 19:59:45,557 Ignored: uuid=3cfaed40-c2ce-463f-b748-b591799fd292, flag=0, reason=smaller candidate than mine
+2025-09-21 19:59:45,657 Received: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0, greater, 0
+2025-09-21 19:59:45,658 Sent: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0
+2025-09-21 19:59:45,658 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0, greater, 0
+2025-09-21 19:59:45,658 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0
+2025-09-21 19:59:45,863 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1, greater, 0
+2025-09-21 19:59:45,864 Leader is decided to fa6b4169-1121-4ecf-adc2-abbfaede3ffb.
+2025-09-21 19:59:45,864 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1

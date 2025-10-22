@@ -1,0 +1,24 @@
+2025-09-21 19:59:45,246 [Task2] type=y my_uuid=de98be41-aba0-42be-89af-123b04b1f4fb
+2025-09-21 19:59:45,246 [Task2] bind=('127.0.0.1', 5101), targets=[('127.0.0.1', 5102)], expect_in=2
+2025-09-21 19:59:45,246 [Task2] Listening...
+2025-09-21 19:59:45,451 [Task2] Connecting to 127.0.0.1:5102 ...
+2025-09-21 19:59:45,452 [Task2] Connected.
+2025-09-21 19:59:45,453 [Task2] Accepted ('127.0.0.1', 54916) (1/2)
+2025-09-21 19:59:45,454 Sent: uuid=de98be41-aba0-42be-89af-123b04b1f4fb, flag=0
+2025-09-21 19:59:45,454 Received: uuid=597905f2-2fa9-4607-ba20-6bd9195caf85, flag=0, less, 0
+2025-09-21 19:59:45,454 [Task2] Accepted ('127.0.0.1', 54921) (2/2)
+2025-09-21 19:59:45,455 Ignored: uuid=597905f2-2fa9-4607-ba20-6bd9195caf85, flag=0, reason=smaller candidate than mine
+2025-09-21 19:59:45,455 [Task2] Finished accepting expected connections.
+2025-09-21 19:59:45,455 Received: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0, less, 0
+2025-09-21 19:59:45,455 Ignored: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0, reason=smaller candidate than mine
+2025-09-21 19:59:45,556 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0, greater, 0
+2025-09-21 19:59:45,557 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0
+2025-09-21 19:59:45,658 Received: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0, less, 0
+2025-09-21 19:59:45,659 Ignored: uuid=c2ec55a3-34c9-470f-9d2e-9348cda2fa0f, flag=0, reason=smaller candidate than mine
+2025-09-21 19:59:45,659 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0, greater, 0
+2025-09-21 19:59:45,659 Ignored: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=0, reason=duplicate candidate already forwarded
+2025-09-21 19:59:45,763 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1, greater, 0
+2025-09-21 19:59:45,763 Leader is decided to fa6b4169-1121-4ecf-adc2-abbfaede3ffb.
+2025-09-21 19:59:45,764 Sent: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1
+2025-09-21 19:59:45,869 Received: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1, greater, 1, leader_id=fa6b4169-1121-4ecf-adc2-abbfaede3ffb
+2025-09-21 19:59:45,869 Ignored: uuid=fa6b4169-1121-4ecf-adc2-abbfaede3ffb, flag=1, reason=announcement already known (same leader)

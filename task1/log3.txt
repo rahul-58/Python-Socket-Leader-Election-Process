@@ -1,0 +1,14 @@
+2025-09-21 19:59:39,501 [Task1] my_uuid=604c7957-8f9e-4b06-a9dd-79cc1b500114
+2025-09-21 19:59:39,501 [Task1] bind=('127.0.0.1', 5003), target=('127.0.0.1', 5001)
+2025-09-21 19:59:39,502 [Task1] Listening...
+2025-09-21 19:59:39,703 [Task1] Connecting to 127.0.0.1:5001 ...
+2025-09-21 19:59:39,704 [Task1] Connected.
+2025-09-21 19:59:39,704 Sent: uuid=604c7957-8f9e-4b06-a9dd-79cc1b500114, flag=0
+2025-09-21 19:59:39,707 [Task1] Accepted ('127.0.0.1', 54915)
+2025-09-21 19:59:39,809 Received: uuid=74c3943e-ff85-47a9-ad24-9c0900b54d8b, flag=0, greater, 0
+2025-09-21 19:59:39,810 Sent: uuid=74c3943e-ff85-47a9-ad24-9c0900b54d8b, flag=0
+2025-09-21 19:59:39,810 Received: uuid=8c6db1de-d774-4614-ac47-8b36681763da, flag=0, greater, 0
+2025-09-21 19:59:39,810 Sent: uuid=8c6db1de-d774-4614-ac47-8b36681763da, flag=0
+2025-09-21 19:59:40,019 Received: uuid=8c6db1de-d774-4614-ac47-8b36681763da, flag=1, greater, 0
+2025-09-21 19:59:40,020 Leader is decided to 8c6db1de-d774-4614-ac47-8b36681763da.
+2025-09-21 19:59:40,020 Sent: uuid=8c6db1de-d774-4614-ac47-8b36681763da, flag=1
